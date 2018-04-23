@@ -1,8 +1,9 @@
 package com.rjt.android.myapplication;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class MyLocation {
+public class MyLocation implements Serializable {
     public String getFormatted_address() {
         return formatted_address;
     }
