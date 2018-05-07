@@ -10,4 +10,9 @@
         android:id="@+id/map_view"
         android:title="Map View"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/find_boundary"
+        android:title="Find Boundary"
+        app:showAsAction="never"
+        />
 </menu>

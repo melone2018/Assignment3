@@ -84,6 +84,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     transaction2.addToBackStack(null);
                     transaction2.commit();
                 return true;
+            case R.id.find_boundary:
+                BoundaryFragment boundaryFragment = new BoundaryFragment();
+                FragmentTransaction transaction1 = getSupportFragmentManager().beginTransaction();
+                transaction1.replace(R.id.fragmentContainer, boundaryFragment);
+                transaction1.addToBackStack(null);
+                transaction1.commit();
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
