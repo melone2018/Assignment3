@@ -1,4 +1,4 @@
-package com.rjt.android.myapplication.model.pojo;
+package com.rjt.android.myapplication.model.pojo_AreaId;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
